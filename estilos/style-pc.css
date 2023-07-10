@@ -73,6 +73,8 @@
     background-color: rgb(255, 255, 255);
     width: 68%;
     margin: 40px auto;
+    background-position: 50% 50%;
+    background-size: 100%;
     }
     .caixa{
         width: 360px;
