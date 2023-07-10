@@ -83,10 +83,8 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 150px;
-    background-image: url(../img/frutas.png);
-    background-repeat: no-repeat;
-    background-position: 5% 119%;
+    padding-bottom: 20px;
+    
 }
 #bloco2 > a{
     text-decoration: none;
