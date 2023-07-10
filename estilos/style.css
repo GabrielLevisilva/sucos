@@ -82,8 +82,8 @@ button{
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 20px;
+    justify-content: space-evenly;
+    padding: 0px 10px 20px 20px;
     
 }
 #bloco2 > a{
@@ -93,12 +93,13 @@ button{
 .caixa{
     background-color: white;
     text-align: center;
-    padding: 6px 17px;
+    padding: 6px 1px;
     margin-top: 2px;
     transition: 0.5s;
     cursor: pointer;
 }
 .caixa:hover{
+    transform: scale(115%);
     box-shadow: 0px 1px 9px 2px rgba(0, 0, 0, 0.123);
 }
 .caixa > h4{
@@ -106,7 +107,7 @@ button{
     
 }
 #bloco2 > a >.caixa > img{
-    width: 90px;
+    width: 80px;
     
 }
 #button-place{
@@ -118,26 +119,7 @@ button{
     width: 80%;
     margin: 10px 10px;
 }
-/* BLOCO 3 */
-#bloco3{
-    background-color: #F5F5F5;
-    padding: 40px 15px 10px 15px;
-    
-}
-#bloco3 > div > .container{
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    
-}
-#bloco3 > div > .container > h3{
-    color: #383B48;
-}
-#bloco3 > div > p{
-    padding: 15px 0px 15px 0px;
-    font-size: 1.2em;
-    color: #66686e ;
-}
+
 /* FOOTER */
 footer{
     background-image: url(../img/background.webp);
