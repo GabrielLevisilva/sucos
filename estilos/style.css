@@ -41,7 +41,7 @@ button:active{
 }
 /* BLOCO 1 */
 #bloco1{
-    background-color: #fff8cb;
+    background-color:rgb(173, 230, 197);
     background-position: 50% 50%;
     font-size: 27px;
     padding: 40px 0px 0px 10px;
@@ -73,7 +73,6 @@ button{
     font-size: 0.8em;
 }
 #bloco1 > img{
-    margin: -43px 0px 10px 5px;
     width: 98%;
     display: none;
 }
@@ -109,9 +108,13 @@ button{
     width: 90px;
     
 }
-#bloco2 > button{
-    font-size: 1.4em;
-    width: 100%;
+#button-place{
+    background-color: rgb(173, 230, 197);
+    text-align: center;
+}
+#button-place > button{
+    font-size: 1.2em;
+    width: 80%;
     margin: 10px 10px;
 }
 /* BLOCO 3 */
